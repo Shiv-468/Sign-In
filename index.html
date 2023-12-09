@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign IN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="bg-img min-vh-100">
+        <div class="container">
+            <div class="row min-vh-100 flex-column-reverse flex-lg-row">
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center mt-5 mt-lg-0">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/Logo-2.png" alt="Logo-2" class="cursor-point">
+                        <h2 class="ff-poppins fw-600 fs-lg lh-135 color-black mt-5">Sign in</h2>
+                        <p class="color-gray ff-lato fw-400 lh-150 fs-sm mt-2">Don’t have an account? <span class="color-blue cursor-point">Register here</span></p>
+                        <div class="email-box br-radius bg-gray d-flex align-items-center gap-2 w-340 mt-32">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path d="M3 3H15C15.825 3 16.5 3.675 16.5 4.5V13.5C16.5 14.325 15.825 15 15 15H3C2.175 15 1.5 14.325 1.5 13.5V4.5C1.5 3.675 2.175 3 3 3Z" stroke="#9197A6" style="stroke:#9197A6;stroke:color(display-p3 0.5686 0.5922 0.6510);stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.5 4.5L9 9.75L1.5 4.5" stroke="#9197A6" style="stroke:#9197A6;stroke:color(display-p3 0.5686 0.5922 0.6510);stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                              <input type="email" placeholder="Email" class="bg-gray fs-sm ff-lato fw-400 lh-150 color-gray w-100" style="outline: none; border: 0;">
+                        </div>
+                        <div class="email-box br-radius bg-gray d-flex align-items-center justify-content-between w-340 mt-2">
+                            <div class="d-flex align-items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M14.25 8.25H3.75C2.92157 8.25 2.25 8.92157 2.25 9.75V15C2.25 15.8284 2.92157 16.5 3.75 16.5H14.25C15.0784 16.5 15.75 15.8284 15.75 15V9.75C15.75 8.92157 15.0784 8.25 14.25 8.25Z" stroke="#9197A6" style="stroke:#9197A6;stroke:color(display-p3 0.5686 0.5922 0.6510);stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.25 8.25V5.25C5.25 4.25544 5.64509 3.30161 6.34835 2.59835C7.05161 1.89509 8.00544 1.5 9 1.5C9.99456 1.5 10.9484 1.89509 11.6517 2.59835C12.3549 3.30161 12.75 4.25544 12.75 5.25V8.25" stroke="#9197A6" style="stroke:#9197A6;stroke:color(display-p3 0.5686 0.5922 0.6510);stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  <input type="password" placeholder="Password" class="bg-gray fs-sm ff-lato fw-400 lh-150 color-gray" style="outline: none; border: 0;">
+                            </div>
+                            <div class="cursor-point">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                  <path d="M7.00652 14.0865L5.55827 13.698L6.14852 11.4938C5.265 11.1679 4.44386 10.693 3.72077 10.0898L2.10602 11.7053L1.04477 10.644L2.66027 9.02927C1.74833 7.93709 1.13558 6.62684 0.882019 5.22677L2.35802 4.95752C2.92727 8.10902 5.68427 10.5 9.00002 10.5C12.315 10.5 15.0728 8.10902 15.642 4.95752L17.118 5.22602C16.8648 6.62628 16.2523 7.9368 15.3405 9.02927L16.9553 10.644L15.894 11.7053L14.2793 10.0898C13.5562 10.693 12.735 11.1679 11.8515 11.4938L12.4418 13.6988L10.9935 14.0865L10.4025 11.8815C9.47428 12.0406 8.52576 12.0406 7.59752 11.8815L7.00652 14.0865Z" fill="#9197A6" style="fill:#9197A6;fill:color(display-p3 0.5686 0.5922 0.6510);fill-opacity:1;"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between w-340 mt-12">
+                            <div class="d-flex align-items-center gap-2">
+                                <input type="checkbox">
+                                <p class="ff-lato fs-sm lh-150 color-gray fw-400">Remember me</p>
+                            </div>
+                            <p class="ff-lato fs-sm lh-150 color-gray fw-400 cursor-point">Forgot password?</p>
+                        </div>
+                        <button class="sign-btn fs-sm ff-poppins lh-125 w-340 mt-4">Sign In</button>
+                        <div class="d-flex mt-3 align-items-center">
+                            <div class="line"></div>
+                            <p class="ff-lato fs-sm lh-150 color-gray fw-400 mx-2 text-nowrap">or continue with</p>
+                            <div class="line"></div>
+                        </div>
+                        <div class="d-flex gap-2 mt-20">
+                            <button class="google-btn br-radius bg-gray d-flex gap-2 justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M19.8 10.2221C19.8 9.39994 19.7332 8.79994 19.5888 8.17773H10.2V11.8888H15.711C15.6 12.811 15 14.1999 13.6666 15.1332L13.6479 15.2574L16.6165 17.5571L16.8222 17.5777C18.711 15.8332 19.8 13.2666 19.8 10.2221Z" fill="#4285F4" style="fill:#4285F4;fill:color(display-p3 0.2588 0.5216 0.9569);fill-opacity:1;"/>
+                                    <path d="M10.2002 20.0002C12.9002 20.0002 15.1668 19.1113 16.8224 17.578L13.6668 15.1335C12.8224 15.7224 11.6891 16.1335 10.2002 16.1335C7.5558 16.1335 5.31138 14.3891 4.51131 11.978L4.39404 11.988L1.30727 14.3769L1.26691 14.4891C2.91132 17.7557 6.28909 20.0002 10.2002 20.0002Z" fill="#34A853" style="fill:#34A853;fill:color(display-p3 0.2039 0.6588 0.3255);fill-opacity:1;"/>
+                                    <path d="M4.51111 11.9777C4.30001 11.3555 4.17783 10.6888 4.17783 9.99995C4.17783 9.31102 4.30001 8.64438 4.50001 8.02217L4.49442 7.88966L1.36897 5.4624L1.26671 5.51104C0.588964 6.86661 0.200073 8.38885 0.200073 9.99995C0.200073 11.611 0.588964 13.1332 1.26671 14.4888L4.51111 11.9777Z" fill="#FBBC05" style="fill:#FBBC05;fill:color(display-p3 0.9843 0.7373 0.0196);fill-opacity:1;"/>
+                                    <path d="M10.2002 3.86662C12.0779 3.86662 13.3446 4.67772 14.0668 5.35554L16.889 2.59998C15.1557 0.988887 12.9002 0 10.2002 0C6.28909 0 2.91132 2.24441 1.26691 5.51103L4.50021 8.02216C5.31138 5.61107 7.5558 3.86662 10.2002 3.86662Z" fill="#EB4335" style="fill:#EB4335;fill:color(display-p3 0.9216 0.2627 0.2078);fill-opacity:1;"/>
+                                  </svg>
+                                  <p class="ff-lato fs-sm lh-150 color-gray fw-400">Google</p>
+                            </button>
+                            <button class="google-btn br-radius bg-gray d-flex gap-2 justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                    <g clip-path="url(#clip0_26584_2569)">
+                                      <path d="M20.5 10C20.5 4.47715 16.0228 0 10.5 0C4.97715 0 0.5 4.47715 0.5 10C0.5 14.9913 4.15686 19.1283 8.9375 19.8785V12.8906H6.39844V10H8.9375V7.79688C8.9375 5.29062 10.4304 3.90625 12.7146 3.90625C13.8087 3.90625 14.9531 4.10156 14.9531 4.10156V6.5625H13.6921C12.4499 6.5625 12.0625 7.33333 12.0625 8.12417V10H14.8359L14.3926 12.8906H12.0625V19.8785C16.8431 19.1283 20.5 14.9913 20.5 10Z" fill="#1877F2" style="fill:#1877F2;fill:color(display-p3 0.0941 0.4667 0.9490);fill-opacity:1;"/>
+                                      <path d="M14.3926 12.8906L14.8359 10H12.0625V8.12417C12.0625 7.33333 12.4499 6.5625 13.6921 6.5625H14.9531V4.10156C14.9531 4.10156 13.8087 3.90625 12.7146 3.90625C10.4304 3.90625 8.9375 5.29062 8.9375 7.79688V10H6.39844V12.8906H8.9375V19.8785C9.97287 20.0405 11.0271 20.0405 12.0625 19.8785V12.8906H14.3926Z" fill="white" style="fill:white;fill:white;fill-opacity:1;"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_26584_2569">
+                                        <rect width="20" height="20" fill="white" style="fill:white;fill:white;fill-opacity:1;" transform="translate(0.5)"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                                  <p class="ff-lato fs-sm lh-150 color-gray fw-400">Facebook</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 bg-blue d-flex align-items-center justify-content-center gap-172 flex-column flex-sm-row min-vh-100">
+                    <div class="d-flex position-relative gap-32 z-2 flex-row flex-wrap justify-content-center mt-5 flex-sm-column mt-sm-0">
+                        <a href="https://www.facebook.com/" target="_blank" class="icons d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+                                <g clip-path="url(#clip0_26584_2611)">
+                                  <path d="M46.2368 23.7466C46.2368 11.044 35.9394 0.746582 23.2368 0.746582C10.5343 0.746582 0.236816 11.044 0.236816 23.7466C0.236816 35.2265 8.64758 44.7417 19.6431 46.4671V30.395H13.8032V23.7466H19.6431V18.6794C19.6431 12.915 23.0768 9.73096 28.3305 9.73096C30.8469 9.73096 33.479 10.1802 33.479 10.1802V15.8403H30.5787C27.7216 15.8403 26.8306 17.6132 26.8306 19.4322V23.7466H33.2095L32.1897 30.395H26.8306V46.4671C37.826 44.7417 46.2368 35.2265 46.2368 23.7466Z" fill="#1877F2" style="fill:#1877F2;fill:color(display-p3 0.0941 0.4667 0.9490);fill-opacity:1;"/>
+                                  <path d="M32.1897 30.395L33.2095 23.7466H26.8306V19.4322C26.8306 17.6132 27.7216 15.8403 30.5787 15.8403H33.479V10.1802C33.479 10.1802 30.8469 9.73096 28.3305 9.73096C23.0768 9.73096 19.6431 12.915 19.6431 18.6794V23.7466H13.8032V30.395H19.6431V46.4671C22.0244 46.8398 24.4492 46.8398 26.8306 46.4671V30.395H32.1897Z" fill="white" style="fill:white;fill:white;fill-opacity:1;"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_26584_2611">
+                                    <rect width="46" height="46" fill="white" style="fill:white;fill:white;fill-opacity:1;" transform="translate(0.236816 0.746582)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                        </a>
+
+
+                        <a href="https://www.linkedin.com/feed/" target="_blank" class="icons d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51" fill="none">
+                                <path d="M27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM27.6749 22.5268H27.7099V22.4708L27.6749 22.5268ZM25.4 1.92285C20.8836 1.92285 16.4687 3.28889 12.7135 5.84821C8.95831 8.40754 6.03149 12.0452 4.30316 16.3012C2.57484 20.5572 2.12263 25.2404 3.00372 29.7585C3.88481 34.2767 6.05964 38.4269 9.25317 41.6843C12.4467 44.9417 16.5155 47.16 20.9451 48.0587C25.3746 48.9574 29.966 48.4962 34.1385 46.7333C38.3111 44.9704 41.8774 41.985 44.3866 38.1547C46.8957 34.3244 48.2349 29.8212 48.2349 25.2146C48.2283 19.0393 45.8204 13.1189 41.5394 8.75229C37.2585 4.38571 31.4541 1.9296 25.4 1.92285ZM19.69 35.7002C19.6886 35.8034 19.6475 35.902 19.5754 35.9745C19.5034 36.0471 19.4062 36.0878 19.305 36.0878H14.905C14.8042 36.0878 14.7075 36.0469 14.6362 35.9742C14.565 35.9015 14.525 35.803 14.525 35.7002V20.6195C14.5243 20.5681 14.5336 20.5172 14.5524 20.4696C14.5712 20.4219 14.5991 20.3786 14.6345 20.3421C14.6698 20.3055 14.7119 20.2765 14.7584 20.2567C14.8048 20.2369 14.8546 20.2267 14.905 20.2268H19.305C19.3555 20.2268 19.4056 20.2369 19.4523 20.2566C19.499 20.2764 19.5414 20.3053 19.5772 20.3418C19.6129 20.3782 19.6413 20.4215 19.6606 20.4692C19.68 20.5168 19.69 20.5679 19.69 20.6195V35.7002ZM16.95 18.2122C16.4031 18.2122 15.8685 18.0468 15.4138 17.7369C14.9591 17.427 14.6047 16.9866 14.3954 16.4712C14.1861 15.9559 14.1314 15.3888 14.2381 14.8417C14.3448 14.2947 14.6081 13.7921 14.9948 13.3977C15.3815 13.0033 15.8742 12.7347 16.4105 12.6258C16.9469 12.517 17.5028 12.5729 18.0081 12.7863C18.5133 12.9998 18.9451 13.3613 19.249 13.8251C19.5528 14.2889 19.715 14.8341 19.715 15.392C19.7156 15.7625 19.6445 16.1295 19.5058 16.472C19.3671 16.8145 19.1635 17.1257 18.9066 17.3877C18.6497 17.6497 18.3446 17.8574 18.0088 17.9989C17.6731 18.1404 17.3132 18.2129 16.95 18.2122ZM38.3099 35.7002C38.3086 35.8034 38.2675 35.902 38.1954 35.9745C38.1234 36.0471 38.0262 36.0878 37.9249 36.0878H33.525C33.475 36.0878 33.4256 36.0777 33.3795 36.0582C33.3334 36.0388 33.2915 36.0102 33.2562 35.9742C33.221 35.9382 33.193 35.8955 33.1739 35.8485C33.1548 35.8015 33.145 35.7511 33.145 35.7002V27.5963C33.145 25.4645 32.4 24.0263 30.53 24.0263C29.9472 24.0296 29.3798 24.2166 28.9054 24.5617C28.431 24.9069 28.0728 25.3932 27.8799 25.9541C27.7481 26.3686 27.6905 26.8039 27.7099 27.2393V35.7002C27.7099 35.8043 27.6694 35.9042 27.5972 35.9778C27.525 36.0515 27.4271 36.0928 27.325 36.0928H22.9249C22.8746 36.0929 22.8248 36.0827 22.7784 36.0629C22.7319 36.0431 22.6898 36.0141 22.6545 35.9775C22.6191 35.941 22.5912 35.8977 22.5724 35.85C22.5536 35.8024 22.5443 35.7515 22.545 35.7002C22.545 33.548 22.6 23.0981 22.545 20.6399C22.5443 20.5885 22.5536 20.5376 22.5724 20.49C22.5912 20.4423 22.6191 20.399 22.6545 20.3625C22.6898 20.3259 22.7319 20.2969 22.7784 20.2771C22.8248 20.2573 22.8746 20.2471 22.9249 20.2472H27.315C27.3657 20.2465 27.4161 20.2562 27.4631 20.2756C27.5101 20.2951 27.5528 20.324 27.5887 20.3606C27.6246 20.3972 27.6529 20.4408 27.672 20.4888C27.6911 20.5367 27.7006 20.5881 27.7 20.6399V22.4911C28.1676 21.663 28.8488 20.9814 29.6694 20.5202C30.49 20.0589 31.4188 19.8358 32.3549 19.8749C35.75 19.8749 38.2999 22.1393 38.2999 27.0149L38.3099 35.7002ZM27.7099 22.5422V22.4861L27.6749 22.5422H27.7099ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422ZM27.6749 22.5422H27.7099V22.4861L27.6749 22.5422Z" fill="#0B49D1" style="fill:#0B49D1;fill:color(display-p3 0.0431 0.2863 0.8196);fill-opacity:1;"/>
+                              </svg>
+                        </a>
+
+
+                        <a href="https://www.instagram.com/" target="_blank" class="icons d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="46" viewBox="0 0 47 46" fill="none">
+                                <g clip-path="url(#clip0_26584_2618)">
+                                  <mask id="mask0_26584_2618" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="47" height="46">
+                                    <path d="M23.2368 46C35.9394 46 46.2368 35.7025 46.2368 23C46.2368 10.2975 35.9394 0 23.2368 0C10.5343 0 0.236816 10.2975 0.236816 23C0.236816 35.7025 10.5343 46 23.2368 46Z" fill="white" style="fill:white;fill:white;fill-opacity:1;"/>
+                                  </mask>
+                                  <g mask="url(#mask0_26584_2618)">
+                                    <path d="M10.1196 93.0781C37.4103 93.0781 59.5337 70.9547 59.5337 43.6641C59.5337 16.3734 37.4103 -5.75 10.1196 -5.75C-17.171 -5.75 -39.2944 16.3734 -39.2944 43.6641C-39.2944 70.9547 -17.171 93.0781 10.1196 93.0781Z" fill="url(#paint0_radial_26584_2618)"/>
+                                  </g>
+                                  <path d="M29.7056 18.3281C30.698 18.3281 31.5024 17.5236 31.5024 16.5312C31.5024 15.5389 30.698 14.7344 29.7056 14.7344C28.7132 14.7344 27.9087 15.5389 27.9087 16.5312C27.9087 17.5236 28.7132 18.3281 29.7056 18.3281Z" fill="white" style="fill:white;fill:white;fill-opacity:1;"/>
+                                  <path d="M23.2368 17.25C22.0996 17.25 20.9879 17.5872 20.0423 18.2191C19.0967 18.8509 18.3597 19.7489 17.9245 20.7996C17.4893 21.8502 17.3754 23.0064 17.5973 24.1218C17.8192 25.2372 18.3668 26.2617 19.171 27.0659C19.9751 27.87 20.9997 28.4177 22.1151 28.6395C23.2304 28.8614 24.3866 28.7475 25.4373 28.3123C26.4879 27.8771 27.386 27.1401 28.0178 26.1945C28.6496 25.2489 28.9868 24.1372 28.9868 23C28.9868 21.475 28.381 20.0125 27.3027 18.9341C26.2243 17.8558 24.7618 17.25 23.2368 17.25ZM23.2368 25.875C22.6682 25.875 22.1123 25.7064 21.6396 25.3905C21.1668 25.0746 20.7983 24.6256 20.5807 24.1002C20.3631 23.5749 20.3061 22.9968 20.4171 22.4391C20.528 21.8814 20.8018 21.3691 21.2039 20.9671C21.606 20.565 22.1182 20.2912 22.6759 20.1802C23.2336 20.0693 23.8117 20.1262 24.337 20.3438C24.8624 20.5614 25.3114 20.9299 25.6273 21.4027C25.9432 21.8755 26.1118 22.4314 26.1118 23C26.1118 23.7625 25.8089 24.4938 25.2698 25.0329C24.7306 25.5721 23.9993 25.875 23.2368 25.875Z" fill="white" style="fill:white;fill:white;fill-opacity:1;"/>
+                                  <path d="M30.4243 11.5H16.0493C13.6676 11.5 11.7368 13.4308 11.7368 15.8125V30.1875C11.7368 32.5692 13.6676 34.5 16.0493 34.5H30.4243C32.806 34.5 34.7368 32.5692 34.7368 30.1875V15.8125C34.7368 13.4308 32.806 11.5 30.4243 11.5Z" stroke="white" style="stroke:white;stroke:white;stroke-opacity:1;" stroke-width="3" stroke-miterlimit="10"/>
+                                </g>
+                                <defs>
+                                  <radialGradient id="paint0_radial_26584_2618" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.1196 43.6641) scale(49.4141)">
+                                    <stop stop-color="#FFD676" style="stop-color:#FFD676;stop-color:color(display-p3 1.0000 0.8392 0.4627);stop-opacity:1;"/>
+                                    <stop offset="0.25" stop-color="#F2A454" style="stop-color:#F2A454;stop-color:color(display-p3 0.9490 0.6431 0.3294);stop-opacity:1;"/>
+                                    <stop offset="0.38" stop-color="#F05C3C" style="stop-color:#F05C3C;stop-color:color(display-p3 0.9412 0.3608 0.2353);stop-opacity:1;"/>
+                                    <stop offset="0.7" stop-color="#C22F86" style="stop-color:#C22F86;stop-color:color(display-p3 0.7608 0.1843 0.5255);stop-opacity:1;"/>
+                                    <stop offset="0.96" stop-color="#6666AD" style="stop-color:#6666AD;stop-color:color(display-p3 0.4000 0.4000 0.6784);stop-opacity:1;"/>
+                                    <stop offset="0.99" stop-color="#5C6CB2" style="stop-color:#5C6CB2;stop-color:color(display-p3 0.3608 0.4235 0.6980);stop-opacity:1;"/>
+                                  </radialGradient>
+                                  <clipPath id="clip0_26584_2618">
+                                    <rect width="46" height="46" fill="white" style="fill:white;fill:white;fill-opacity:1;" transform="translate(0.236816)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                        </a>
+
+
+                        <a href="https://twitter.com/" target="_blank" class="icons d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewBox="0 0 49 48" fill="none">
+                                <rect x="0.541504" width="48" height="48" rx="24" fill="#1877F2" style="fill:#1877F2;fill:color(display-p3 0.0941 0.4667 0.9490);fill-opacity:1;"/>
+                                <path d="M36.6753 16.4894C35.7632 16.8851 34.7987 17.1466 33.8117 17.2659C34.853 16.6439 35.6333 15.6652 36.0079 14.5116C35.0294 15.0941 33.9582 15.5045 32.841 15.7249C32.0942 14.9151 31.0998 14.376 30.0136 14.1923C28.9274 14.0085 27.811 14.1905 26.8394 14.7096C25.8678 15.2287 25.0959 16.0556 24.6449 17.0607C24.1939 18.0657 24.0893 19.192 24.3474 20.263C22.3689 20.1629 20.4335 19.6477 18.6671 18.7509C16.9007 17.8541 15.3427 16.5958 14.0943 15.0576C13.6564 15.8222 13.4264 16.6882 13.427 17.5693C13.4254 18.3876 13.6262 19.1935 14.0115 19.9154C14.3968 20.6373 14.9546 21.2528 15.6353 21.7069C14.8442 21.6854 14.0699 21.4731 13.3784 21.0881V21.1488C13.3843 22.2953 13.7861 23.4045 14.5157 24.2889C15.2454 25.1733 16.2581 25.7786 17.3826 26.0023C16.9497 26.134 16.5003 26.2035 16.0479 26.2085C15.7347 26.2049 15.4223 26.1765 15.1135 26.1236C15.4338 27.1099 16.0535 27.9718 16.8864 28.5894C17.7193 29.207 18.7241 29.5496 19.7608 29.5696C18.0101 30.9471 15.8487 31.6989 13.6211 31.7051C13.2155 31.7065 12.8102 31.6822 12.4077 31.6323C14.6821 33.1008 17.3326 33.8804 20.0399 33.8771C21.9081 33.8965 23.7615 33.5434 25.4917 32.8385C27.222 32.1336 28.7944 31.091 30.1172 29.7716C31.44 28.4522 32.4867 26.8824 33.196 25.154C33.9053 23.4256 34.2631 21.5731 34.2485 19.7048C34.2485 19.4986 34.2485 19.2801 34.2485 19.0617C35.2007 18.3517 36.0219 17.4812 36.6753 16.4894Z" fill="#FCFDFF" style="fill:#FCFDFF;fill:color(display-p3 0.9875 0.9914 1.0000);fill-opacity:1;"/>
+                              </svg>
+                        </a>
+                        
+                    </div>
+                    <img src="./assets/images/Union.png" alt="Union" class="position-absolute z-0 d-none d-md-block ">
+                    <img src="./assets/images/postalott.png" alt="postalott" class="w-100 w-247 mt-5 mb-5 mt-sm-0 mb-sm-0">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

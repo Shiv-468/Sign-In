@@ -1,0 +1,56 @@
+:root{
+    --fs-sm:14px;
+    --fs-md:16px;
+    --fs-lg:32px;
+    --color-black:#030712;
+    --color-blue:#2563EB;
+    --color-gray:#9197A6;
+    --br-radius: #E4EAF7;
+    --bg-gray:#F5F8FF;
+}
+
+.color-black{
+    color: var(--color-black);
+}
+.color-blue{
+    color: var(--color-blue);
+}
+.color-gray{
+    color: var(--color-gray);
+}
+.br-radius{
+    border-color: var(--br-radius);
+}
+.bg-gray{
+    background: var(--bg-gray);
+}
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-600{
+    font-weight: 600;
+}
+.lh-135{
+    line-height: 135%;
+}
+.lh-25{
+    line-height: 125%;
+}
+.lh-150{
+    line-height: 150%;
+}
+.ff-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.ff-lato{
+    font-family: 'Lato', sans-serif;
+}
