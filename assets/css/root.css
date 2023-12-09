@@ -5,6 +5,7 @@
     --color-black:#030712;
     --color-blue:#2563EB;
     --color-gray:#9197A6;
+    --color-gray2:#62656D;
     --br-radius: #E4EAF7;
     --bg-gray:#F5F8FF;
 }
@@ -17,6 +18,9 @@
 }
 .color-gray{
     color: var(--color-gray);
+}
+.color-gray2{
+    color: var(--color-gray2);
 }
 .br-radius{
     border-color: var(--br-radius);
@@ -42,11 +46,14 @@
 .lh-135{
     line-height: 135%;
 }
-.lh-25{
+.lh-125{
     line-height: 125%;
 }
 .lh-150{
     line-height: 150%;
+}
+.lh-171{
+    line-height: 24px; /* 171.429% */
 }
 .ff-poppins{
     font-family: 'Poppins', sans-serif;
